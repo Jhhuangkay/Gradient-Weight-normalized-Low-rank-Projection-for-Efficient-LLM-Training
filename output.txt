@@ -1,0 +1,883 @@
+Starting script
+enable WeightNormGaLore for weights in module:  model.layers.0.self_attn.q_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.0.self_attn.k_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.0.self_attn.v_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.0.self_attn.o_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.0.mlp.gate_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+enable WeightNormGaLore for weights in module:  model.layers.0.mlp.down_proj
+Decomposing weight
+W shape: torch.Size([512, 1376])
+Direction shape: torch.Size([512, 1376])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 1376])
+enable WeightNormGaLore for weights in module:  model.layers.0.mlp.up_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+enable WeightNormGaLore for weights in module:  model.layers.1.self_attn.q_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.1.self_attn.k_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.1.self_attn.v_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.1.self_attn.o_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.1.mlp.gate_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+enable WeightNormGaLore for weights in module:  model.layers.1.mlp.down_proj
+Decomposing weight
+W shape: torch.Size([512, 1376])
+Direction shape: torch.Size([512, 1376])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 1376])
+enable WeightNormGaLore for weights in module:  model.layers.1.mlp.up_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+enable WeightNormGaLore for weights in module:  model.layers.2.self_attn.q_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.2.self_attn.k_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.2.self_attn.v_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.2.self_attn.o_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.2.mlp.gate_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+enable WeightNormGaLore for weights in module:  model.layers.2.mlp.down_proj
+Decomposing weight
+W shape: torch.Size([512, 1376])
+Direction shape: torch.Size([512, 1376])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 1376])
+enable WeightNormGaLore for weights in module:  model.layers.2.mlp.up_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+enable WeightNormGaLore for weights in module:  model.layers.3.self_attn.q_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.3.self_attn.k_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.3.self_attn.v_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.3.self_attn.o_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.3.mlp.gate_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+enable WeightNormGaLore for weights in module:  model.layers.3.mlp.down_proj
+Decomposing weight
+W shape: torch.Size([512, 1376])
+Direction shape: torch.Size([512, 1376])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 1376])
+enable WeightNormGaLore for weights in module:  model.layers.3.mlp.up_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+enable WeightNormGaLore for weights in module:  model.layers.4.self_attn.q_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.4.self_attn.k_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.4.self_attn.v_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.4.self_attn.o_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.4.mlp.gate_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+enable WeightNormGaLore for weights in module:  model.layers.4.mlp.down_proj
+Decomposing weight
+W shape: torch.Size([512, 1376])
+Direction shape: torch.Size([512, 1376])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 1376])
+enable WeightNormGaLore for weights in module:  model.layers.4.mlp.up_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+enable WeightNormGaLore for weights in module:  model.layers.5.self_attn.q_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.5.self_attn.k_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.5.self_attn.v_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.5.self_attn.o_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.5.mlp.gate_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+enable WeightNormGaLore for weights in module:  model.layers.5.mlp.down_proj
+Decomposing weight
+W shape: torch.Size([512, 1376])
+Direction shape: torch.Size([512, 1376])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 1376])
+enable WeightNormGaLore for weights in module:  model.layers.5.mlp.up_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+enable WeightNormGaLore for weights in module:  model.layers.6.self_attn.q_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.6.self_attn.k_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.6.self_attn.v_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.6.self_attn.o_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.6.mlp.gate_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+enable WeightNormGaLore for weights in module:  model.layers.6.mlp.down_proj
+Decomposing weight
+W shape: torch.Size([512, 1376])
+Direction shape: torch.Size([512, 1376])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 1376])
+enable WeightNormGaLore for weights in module:  model.layers.6.mlp.up_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+enable WeightNormGaLore for weights in module:  model.layers.7.self_attn.q_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.7.self_attn.k_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.7.self_attn.v_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.7.self_attn.o_proj
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 512])
+enable WeightNormGaLore for weights in module:  model.layers.7.mlp.gate_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+enable WeightNormGaLore for weights in module:  model.layers.7.mlp.down_proj
+Decomposing weight
+W shape: torch.Size([512, 1376])
+Direction shape: torch.Size([512, 1376])
+Magnitude shape: torch.Size([512, 1])
+weight_galore module.weight.shape: torch.Size([512, 1376])
+enable WeightNormGaLore for weights in module:  model.layers.7.mlp.up_proj
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+weight_galore module.weight.shape: torch.Size([1376, 512])
+weight_norm_params's length is: 112
+&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
+Parameter groups and their tensor sizes:
+
+Parameter group 1:
+  Tensor 1 size: torch.Size([32000, 512])
+  Tensor 2 size: torch.Size([512, 512])
+  Tensor 3 size: torch.Size([512, 512])
+  Tensor 4 size: torch.Size([512, 512])
+  Tensor 5 size: torch.Size([512, 512])
+  Tensor 6 size: torch.Size([1376, 512])
+  Tensor 7 size: torch.Size([512, 1376])
+  Tensor 8 size: torch.Size([1376, 512])
+  Tensor 9 size: torch.Size([512])
+  Tensor 10 size: torch.Size([512])
+  Tensor 11 size: torch.Size([512, 512])
+  Tensor 12 size: torch.Size([512, 512])
+  Tensor 13 size: torch.Size([512, 512])
+  Tensor 14 size: torch.Size([512, 512])
+  Tensor 15 size: torch.Size([1376, 512])
+  Tensor 16 size: torch.Size([512, 1376])
+  Tensor 17 size: torch.Size([1376, 512])
+  Tensor 18 size: torch.Size([512])
+  Tensor 19 size: torch.Size([512])
+  Tensor 20 size: torch.Size([512, 512])
+  Tensor 21 size: torch.Size([512, 512])
+  Tensor 22 size: torch.Size([512, 512])
+  Tensor 23 size: torch.Size([512, 512])
+  Tensor 24 size: torch.Size([1376, 512])
+  Tensor 25 size: torch.Size([512, 1376])
+  Tensor 26 size: torch.Size([1376, 512])
+  Tensor 27 size: torch.Size([512])
+  Tensor 28 size: torch.Size([512])
+  Tensor 29 size: torch.Size([512, 512])
+  Tensor 30 size: torch.Size([512, 512])
+  Tensor 31 size: torch.Size([512, 512])
+  Tensor 32 size: torch.Size([512, 512])
+  Tensor 33 size: torch.Size([1376, 512])
+  Tensor 34 size: torch.Size([512, 1376])
+  Tensor 35 size: torch.Size([1376, 512])
+  Tensor 36 size: torch.Size([512])
+  Tensor 37 size: torch.Size([512])
+  Tensor 38 size: torch.Size([512, 512])
+  Tensor 39 size: torch.Size([512, 512])
+  Tensor 40 size: torch.Size([512, 512])
+  Tensor 41 size: torch.Size([512, 512])
+  Tensor 42 size: torch.Size([1376, 512])
+  Tensor 43 size: torch.Size([512, 1376])
+  Tensor 44 size: torch.Size([1376, 512])
+  Tensor 45 size: torch.Size([512])
+  Tensor 46 size: torch.Size([512])
+  Tensor 47 size: torch.Size([512, 512])
+  Tensor 48 size: torch.Size([512, 512])
+  Tensor 49 size: torch.Size([512, 512])
+  Tensor 50 size: torch.Size([512, 512])
+  Tensor 51 size: torch.Size([1376, 512])
+  Tensor 52 size: torch.Size([512, 1376])
+  Tensor 53 size: torch.Size([1376, 512])
+  Tensor 54 size: torch.Size([512])
+  Tensor 55 size: torch.Size([512])
+  Tensor 56 size: torch.Size([512, 512])
+  Tensor 57 size: torch.Size([512, 512])
+  Tensor 58 size: torch.Size([512, 512])
+  Tensor 59 size: torch.Size([512, 512])
+  Tensor 60 size: torch.Size([1376, 512])
+  Tensor 61 size: torch.Size([512, 1376])
+  Tensor 62 size: torch.Size([1376, 512])
+  Tensor 63 size: torch.Size([512])
+  Tensor 64 size: torch.Size([512])
+  Tensor 65 size: torch.Size([512, 512])
+  Tensor 66 size: torch.Size([512, 512])
+  Tensor 67 size: torch.Size([512, 512])
+  Tensor 68 size: torch.Size([512, 512])
+  Tensor 69 size: torch.Size([1376, 512])
+  Tensor 70 size: torch.Size([512, 1376])
+  Tensor 71 size: torch.Size([1376, 512])
+  Tensor 72 size: torch.Size([512])
+  Tensor 73 size: torch.Size([512])
+  Tensor 74 size: torch.Size([512])
+  Tensor 75 size: torch.Size([32000, 512])
+
+Parameter group 2:
+  Tensor 1 size: torch.Size([512, 512])
+  Tensor 2 size: torch.Size([512])
+  Tensor 3 size: torch.Size([512, 512])
+  Tensor 4 size: torch.Size([512])
+  Tensor 5 size: torch.Size([512, 512])
+  Tensor 6 size: torch.Size([512])
+  Tensor 7 size: torch.Size([512, 512])
+  Tensor 8 size: torch.Size([512])
+  Tensor 9 size: torch.Size([1376, 512])
+  Tensor 10 size: torch.Size([1376])
+  Tensor 11 size: torch.Size([512, 1376])
+  Tensor 12 size: torch.Size([512])
+  Tensor 13 size: torch.Size([1376, 512])
+  Tensor 14 size: torch.Size([1376])
+  Tensor 15 size: torch.Size([512, 512])
+  Tensor 16 size: torch.Size([512])
+  Tensor 17 size: torch.Size([512, 512])
+  Tensor 18 size: torch.Size([512])
+  Tensor 19 size: torch.Size([512, 512])
+  Tensor 20 size: torch.Size([512])
+  Tensor 21 size: torch.Size([512, 512])
+  Tensor 22 size: torch.Size([512])
+  Tensor 23 size: torch.Size([1376, 512])
+  Tensor 24 size: torch.Size([1376])
+  Tensor 25 size: torch.Size([512, 1376])
+  Tensor 26 size: torch.Size([512])
+  Tensor 27 size: torch.Size([1376, 512])
+  Tensor 28 size: torch.Size([1376])
+  Tensor 29 size: torch.Size([512, 512])
+  Tensor 30 size: torch.Size([512])
+  Tensor 31 size: torch.Size([512, 512])
+  Tensor 32 size: torch.Size([512])
+  Tensor 33 size: torch.Size([512, 512])
+  Tensor 34 size: torch.Size([512])
+  Tensor 35 size: torch.Size([512, 512])
+  Tensor 36 size: torch.Size([512])
+  Tensor 37 size: torch.Size([1376, 512])
+  Tensor 38 size: torch.Size([1376])
+  Tensor 39 size: torch.Size([512, 1376])
+  Tensor 40 size: torch.Size([512])
+  Tensor 41 size: torch.Size([1376, 512])
+  Tensor 42 size: torch.Size([1376])
+  Tensor 43 size: torch.Size([512, 512])
+  Tensor 44 size: torch.Size([512])
+  Tensor 45 size: torch.Size([512, 512])
+  Tensor 46 size: torch.Size([512])
+  Tensor 47 size: torch.Size([512, 512])
+  Tensor 48 size: torch.Size([512])
+  Tensor 49 size: torch.Size([512, 512])
+  Tensor 50 size: torch.Size([512])
+  Tensor 51 size: torch.Size([1376, 512])
+  Tensor 52 size: torch.Size([1376])
+  Tensor 53 size: torch.Size([512, 1376])
+  Tensor 54 size: torch.Size([512])
+  Tensor 55 size: torch.Size([1376, 512])
+  Tensor 56 size: torch.Size([1376])
+  Tensor 57 size: torch.Size([512, 512])
+  Tensor 58 size: torch.Size([512])
+  Tensor 59 size: torch.Size([512, 512])
+  Tensor 60 size: torch.Size([512])
+  Tensor 61 size: torch.Size([512, 512])
+  Tensor 62 size: torch.Size([512])
+  Tensor 63 size: torch.Size([512, 512])
+  Tensor 64 size: torch.Size([512])
+  Tensor 65 size: torch.Size([1376, 512])
+  Tensor 66 size: torch.Size([1376])
+  Tensor 67 size: torch.Size([512, 1376])
+  Tensor 68 size: torch.Size([512])
+  Tensor 69 size: torch.Size([1376, 512])
+  Tensor 70 size: torch.Size([1376])
+  Tensor 71 size: torch.Size([512, 512])
+  Tensor 72 size: torch.Size([512])
+  Tensor 73 size: torch.Size([512, 512])
+  Tensor 74 size: torch.Size([512])
+  Tensor 75 size: torch.Size([512, 512])
+  Tensor 76 size: torch.Size([512])
+  Tensor 77 size: torch.Size([512, 512])
+  Tensor 78 size: torch.Size([512])
+  Tensor 79 size: torch.Size([1376, 512])
+  Tensor 80 size: torch.Size([1376])
+  Tensor 81 size: torch.Size([512, 1376])
+  Tensor 82 size: torch.Size([512])
+  Tensor 83 size: torch.Size([1376, 512])
+  Tensor 84 size: torch.Size([1376])
+  Tensor 85 size: torch.Size([512, 512])
+  Tensor 86 size: torch.Size([512])
+  Tensor 87 size: torch.Size([512, 512])
+  Tensor 88 size: torch.Size([512])
+  Tensor 89 size: torch.Size([512, 512])
+  Tensor 90 size: torch.Size([512])
+  Tensor 91 size: torch.Size([512, 512])
+  Tensor 92 size: torch.Size([512])
+  Tensor 93 size: torch.Size([1376, 512])
+  Tensor 94 size: torch.Size([1376])
+  Tensor 95 size: torch.Size([512, 1376])
+  Tensor 96 size: torch.Size([512])
+  Tensor 97 size: torch.Size([1376, 512])
+  Tensor 98 size: torch.Size([1376])
+  Tensor 99 size: torch.Size([512, 512])
+  Tensor 100 size: torch.Size([512])
+  Tensor 101 size: torch.Size([512, 512])
+  Tensor 102 size: torch.Size([512])
+  Tensor 103 size: torch.Size([512, 512])
+  Tensor 104 size: torch.Size([512])
+  Tensor 105 size: torch.Size([512, 512])
+  Tensor 106 size: torch.Size([512])
+  Tensor 107 size: torch.Size([1376, 512])
+  Tensor 108 size: torch.Size([1376])
+  Tensor 109 size: torch.Size([512, 1376])
+  Tensor 110 size: torch.Size([512])
+  Tensor 111 size: torch.Size([1376, 512])
+  Tensor 112 size: torch.Size([1376])
+
+00000000000000000000000000000000000000000000000000
+p's size is : torch.Size([32000, 512])
+00000000000000000000000000000000000000000000000000
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+grad's size is : torch.Size([32000, 512])
+p's size is : torch.Size([32000, 512])
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Decomposing weight
+W shape: torch.Size([32000, 512])
+Direction shape: torch.Size([32000, 512])
+Magnitude shape: torch.Size([32000, 1])
+Step 1: Computing low-rank projected gradients.
+Computing gradients
+Grad direction shape: torch.Size([32000, 512])
+Grad magnitude shape: torch.Size([32000])
+Projecting gradients at step 1
+self.proj_type std
+full_rank_grad shape: torch.Size([32000, 512])
+Test Test Test Test Test Test Test Test Test Test 
+Computing SVD for rank: 256, type: right
+Data type conversion took 0.0001 seconds
+SVD computation took 0.6051 seconds
+Right Orthogonal matrix computation took 0.0009 seconds
+Project took 0.6078 seconds
+Projection forward took 0.6080 seconds
+Project back took 0.0001 seconds
+Projection took 0.6086 seconds
+Projection backward took 0.6088 seconds
+Step 1: Updating direction.
+Step 1: Updating magnitude.
+Step 1: Reconstructing weight.
+Reconstructing weight
+Reconstructed W shape: torch.Size([32000, 512])
+Direction shape: torch.Size([32000, 512])
+Magnitude shape: torch.Size([32000])
+Decomposing weight again to check shapes
+Decomposing weight
+W shape: torch.Size([32000, 512])
+Direction shape: torch.Size([32000, 512])
+Magnitude shape: torch.Size([32000, 1])
+W shape: torch.Size([32000, 512])
+Direction shape: torch.Size([32000, 512])
+Magnitude shape: torch.Size([32000])
+00000000000000000000000000000000000000000000000000
+p's size is : torch.Size([512, 512])
+00000000000000000000000000000000000000000000000000
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+grad's size is : torch.Size([512, 512])
+p's size is : torch.Size([512, 512])
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+Step 1: Computing low-rank projected gradients.
+Computing gradients
+Grad direction shape: torch.Size([512, 512])
+Grad magnitude shape: torch.Size([512])
+Projecting gradients at step 1
+self.proj_type std
+full_rank_grad shape: torch.Size([512, 512])
+Test Test Test Test Test Test Test Test Test Test 
+Computing SVD for rank: 256, type: right
+Data type conversion took 0.0001 seconds
+SVD computation took 0.0295 seconds
+Right Orthogonal matrix computation took 0.0006 seconds
+Project took 0.0316 seconds
+Projection forward took 0.0318 seconds
+Project back took 0.0001 seconds
+Projection took 0.0323 seconds
+Projection backward took 0.0325 seconds
+Step 1: Updating direction.
+Step 1: Updating magnitude.
+Step 1: Reconstructing weight.
+Reconstructing weight
+Reconstructed W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512])
+Decomposing weight again to check shapes
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512])
+00000000000000000000000000000000000000000000000000
+p's size is : torch.Size([512, 512])
+00000000000000000000000000000000000000000000000000
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+grad's size is : torch.Size([512, 512])
+p's size is : torch.Size([512, 512])
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+Step 1: Computing low-rank projected gradients.
+Computing gradients
+Grad direction shape: torch.Size([512, 512])
+Grad magnitude shape: torch.Size([512])
+Projecting gradients at step 1
+self.proj_type std
+full_rank_grad shape: torch.Size([512, 512])
+Test Test Test Test Test Test Test Test Test Test 
+Computing SVD for rank: 256, type: right
+Data type conversion took 0.0009 seconds
+SVD computation took 0.0281 seconds
+Right Orthogonal matrix computation took 0.0003 seconds
+Project took 0.0306 seconds
+Projection forward took 0.0308 seconds
+Project back took 0.0001 seconds
+Projection took 0.0312 seconds
+Projection backward took 0.0313 seconds
+Step 1: Updating direction.
+Step 1: Updating magnitude.
+Step 1: Reconstructing weight.
+Reconstructing weight
+Reconstructed W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512])
+Decomposing weight again to check shapes
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512])
+00000000000000000000000000000000000000000000000000
+p's size is : torch.Size([512, 512])
+00000000000000000000000000000000000000000000000000
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+grad's size is : torch.Size([512, 512])
+p's size is : torch.Size([512, 512])
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+Step 1: Computing low-rank projected gradients.
+Computing gradients
+Grad direction shape: torch.Size([512, 512])
+Grad magnitude shape: torch.Size([512])
+Projecting gradients at step 1
+self.proj_type std
+full_rank_grad shape: torch.Size([512, 512])
+Test Test Test Test Test Test Test Test Test Test 
+Computing SVD for rank: 256, type: right
+Data type conversion took 0.0008 seconds
+SVD computation took 0.0303 seconds
+Right Orthogonal matrix computation took 0.0003 seconds
+Project took 0.0327 seconds
+Projection forward took 0.0329 seconds
+Project back took 0.0001 seconds
+Projection took 0.0332 seconds
+Projection backward took 0.0334 seconds
+Step 1: Updating direction.
+Step 1: Updating magnitude.
+Step 1: Reconstructing weight.
+Reconstructing weight
+Reconstructed W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512])
+Decomposing weight again to check shapes
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512])
+00000000000000000000000000000000000000000000000000
+p's size is : torch.Size([512, 512])
+00000000000000000000000000000000000000000000000000
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+grad's size is : torch.Size([512, 512])
+p's size is : torch.Size([512, 512])
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+Step 1: Computing low-rank projected gradients.
+Computing gradients
+Grad direction shape: torch.Size([512, 512])
+Grad magnitude shape: torch.Size([512])
+Projecting gradients at step 1
+self.proj_type std
+full_rank_grad shape: torch.Size([512, 512])
+Test Test Test Test Test Test Test Test Test Test 
+Computing SVD for rank: 256, type: right
+Data type conversion took 0.0007 seconds
+SVD computation took 0.0304 seconds
+Right Orthogonal matrix computation took 0.0003 seconds
+Project took 0.0325 seconds
+Projection forward took 0.0327 seconds
+Project back took 0.0001 seconds
+Projection took 0.0331 seconds
+Projection backward took 0.0333 seconds
+Step 1: Updating direction.
+Step 1: Updating magnitude.
+Step 1: Reconstructing weight.
+Reconstructing weight
+Reconstructed W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512])
+Decomposing weight again to check shapes
+Decomposing weight
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512, 1])
+W shape: torch.Size([512, 512])
+Direction shape: torch.Size([512, 512])
+Magnitude shape: torch.Size([512])
+00000000000000000000000000000000000000000000000000
+p's size is : torch.Size([1376, 512])
+00000000000000000000000000000000000000000000000000
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+grad's size is : torch.Size([1376, 512])
+p's size is : torch.Size([1376, 512])
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+Step 1: Computing low-rank projected gradients.
+Computing gradients
+Grad direction shape: torch.Size([1376, 512])
+Grad magnitude shape: torch.Size([1376])
+Projecting gradients at step 1
+self.proj_type std
+full_rank_grad shape: torch.Size([1376, 512])
+Test Test Test Test Test Test Test Test Test Test 
+Computing SVD for rank: 256, type: right
+Data type conversion took 0.0001 seconds
+SVD computation took 0.0375 seconds
+Right Orthogonal matrix computation took 0.0004 seconds
+Project took 0.0393 seconds
+Projection forward took 0.0395 seconds
+Project back took 0.0002 seconds
+Projection took 0.0400 seconds
+Projection backward took 0.0401 seconds
+Step 1: Updating direction.
+Step 1: Updating magnitude.
+Step 1: Reconstructing weight.
+Reconstructing weight
+Reconstructed W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376])
+Decomposing weight again to check shapes
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376])
+00000000000000000000000000000000000000000000000000
+p's size is : torch.Size([512, 1376])
+00000000000000000000000000000000000000000000000000
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+grad's size is : torch.Size([512, 1376])
+p's size is : torch.Size([512, 1376])
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Decomposing weight
+W shape: torch.Size([512, 1376])
+Direction shape: torch.Size([512, 1376])
+Magnitude shape: torch.Size([512, 1])
+Step 1: Computing low-rank projected gradients.
+Computing gradients
+Grad direction shape: torch.Size([512, 1376])
+Grad magnitude shape: torch.Size([512])
+Projecting gradients at step 1
+self.proj_type std
+full_rank_grad shape: torch.Size([512, 1376])
+Computing SVD for rank: 256, type: left
+Data type conversion took 0.0001 seconds
+SVD computation took 0.0307 seconds
+Left Orthogonal matrix computation took 0.0005 seconds
+Project took 0.0323 seconds
+Projection forward took 0.0325 seconds
+Project back took 0.0001 seconds
+Projection took 0.0329 seconds
+Projection backward took 0.0330 seconds
+Step 1: Updating direction.
+Step 1: Updating magnitude.
+Step 1: Reconstructing weight.
+Reconstructing weight
+Reconstructed W shape: torch.Size([512, 1376])
+Direction shape: torch.Size([512, 1376])
+Magnitude shape: torch.Size([512])
+Decomposing weight again to check shapes
+Decomposing weight
+W shape: torch.Size([512, 1376])
+Direction shape: torch.Size([512, 1376])
+Magnitude shape: torch.Size([512, 1])
+W shape: torch.Size([512, 1376])
+Direction shape: torch.Size([512, 1376])
+Magnitude shape: torch.Size([512])
+00000000000000000000000000000000000000000000000000
+p's size is : torch.Size([1376, 512])
+00000000000000000000000000000000000000000000000000
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+grad's size is : torch.Size([1376, 512])
+p's size is : torch.Size([1376, 512])
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+Step 1: Computing low-rank projected gradients.
+Computing gradients
+Grad direction shape: torch.Size([1376, 512])
+Grad magnitude shape: torch.Size([1376])
+Projecting gradients at step 1
+self.proj_type std
+full_rank_grad shape: torch.Size([1376, 512])
+Test Test Test Test Test Test Test Test Test Test 
+Computing SVD for rank: 256, type: right
+Data type conversion took 0.0001 seconds
+SVD computation took 0.0308 seconds
+Right Orthogonal matrix computation took 0.0003 seconds
+Project took 0.0323 seconds
+Projection forward took 0.0324 seconds
+Project back took 0.0001 seconds
+Projection took 0.0328 seconds
+Projection backward took 0.0329 seconds
+Step 1: Updating direction.
+Step 1: Updating magnitude.
+Step 1: Reconstructing weight.
+Reconstructing weight
+Reconstructed W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376])
+Decomposing weight again to check shapes
+Decomposing weight
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376, 1])
+W shape: torch.Size([1376, 512])
+Direction shape: torch.Size([1376, 512])
+Magnitude shape: torch.Size([1376])
+00000000000000000000000000000000000000000000000000
+p's size is : torch.Size([512])
+00000000000000000000000000000000000000000000000000
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+grad's size is : torch.Size([512])
+p's size is : torch.Size([512])
+xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+Decomposing weight
