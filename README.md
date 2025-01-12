@@ -107,11 +107,12 @@ python test_fine.py \
 If you use GradNormLoRP in your research, please cite the paper:
 
 ```bibtex
-@article{huang2024gradnormlorp,
+@inproceedings{huang2025gradient,
   title={Gradient Weight-Normalized Low-Rank Projection for Efficient LLM Training},
   author={Huang, Jia-Hong and Shen, Yixian and Zhu, Hongyi and Rudinac, Stevan and Kanoulas, Evangelos},
-  journal={arXiv preprint arXiv:2412.19616},
-  year={2024}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume={39},
+  year={2025}
 }
 ```
 
